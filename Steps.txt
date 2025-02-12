@@ -1,0 +1,3 @@
++ Podesiti okruženje (venv, libraries)
+- Podesiti git
+- Podesiti ignorisanje data fajlova za git push
