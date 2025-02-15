@@ -1,3 +1,4 @@
 + Podesiti okruženje (venv, libraries)
-- Podesiti git
-- Podesiti ignorisanje data fajlova za git push
++ Podesiti git
++ Podesiti ignorisanje data fajlova za git push
+- Podesiti učitavanje podataka u jupyther notebook-u
