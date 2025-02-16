@@ -1,4 +1,41 @@
 + Podesiti okruženje (venv, libraries)
 + Podesiti git
 + Podesiti ignorisanje data fajlova za git push
-- Podesiti učitavanje podataka u jupyther notebook-u
++ Podesiti učitavanje podataka u jupyther notebook-u
++ Čišćenje podataka
++ Srediti i lib_name (ima duplih space-ova)
++ Srediti lib_city, lib_region i lib_postal_code
++ Srediti ulice u libraries datasetu
++ cust_state i cust_city imaju nan-ova (ovo sam već radio za neki drugi dataframe)
++ book categories imaju nan-ova (svrstati ih u other?)
++ Izračunati starost na osnovu datuma rođenja
++ Resetovati indeks za df
+
+- Odvojiti analize od pripreme podataka
+- Histogrami cena, strana, dana, godina, itd.
+- Napisati u readme redosled, uputstvo za podatke, pakete
+- Uzeti u obzir: 
+	- šta ako uklonim preterane brojeve?
+	- šta ako revertujem minus?
+	- Da li se menja zaključak?
+	- Setovati 1800 checkout da ne bude manji od publish_date-a
+	- Šta uraditi sa nan unosima za date_checkout?
+	- Šta kad je i levo i desno godina 2018 a cifra je nenormalna? (rotirati minus?)
+	- Šta ako umesto godine 1800+ unesem npr 2000+? da li se šta menja?
+	- Koja biblioteka ima najviše loših unosa datuma?
+	- Koja biblioteka ima najviše mušterija?
+	
+
+
+- Pitanja:
+	- What is the rate of late returns?
+	- Are there any factors connected with late returns?
+	- How to mitigate them?
+	- How to present findings/solution?
+	
+	- Can I create a predictive model?
+	- What other stories I can tell with this data?
+	
+- Primedbe:
+	- id in checkouts is not unique but rather books id. This naming is not good practice.
+	- podaci su očajni
