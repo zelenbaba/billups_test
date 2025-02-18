@@ -57,4 +57,9 @@
 
 
 - t-test za relevantnost rezultata, drill-down (multivariate analysis)
+- analiza lokacija i daljine klijenata
+- analiza koje biblioteke loše vode podatke
+- addressing imbalance and running predictive models
+- create dashboard for drill-down where it is clearly shown which categories have above averate rate of late returns
 
+- Ažurirati path da radi na bilo kojoj mašini
