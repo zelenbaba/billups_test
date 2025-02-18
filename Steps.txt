@@ -10,26 +10,27 @@
 + book categories imaju nan-ova (svrstati ih u other?)
 + Izračunati starost na osnovu datuma rođenja
 + Resetovati indeks za df
++ Odvojiti analize od pripreme podataka
++ Histogrami cena, strana, dana, godina, itd.
 
-- Odvojiti analize od pripreme podataka
-- Histogrami cena, strana, dana, godina, itd.
 - Napisati u readme redosled, uputstvo za podatke, pakete
 - Uzeti u obzir: 
-	- šta ako uklonim preterane brojeve?
+	+ šta ako uklonim preterane brojeve?
 	- šta ako revertujem minus?
 	- Da li se menja zaključak?
 	- Setovati 1800 checkout da ne bude manji od publish_date-a
-	- Šta uraditi sa nan unosima za date_checkout?
+	+ Šta uraditi sa nan unosima za date_checkout?
 	- Šta kad je i levo i desno godina 2018 a cifra je nenormalna? (rotirati minus?)
 	- Šta ako umesto godine 1800+ unesem npr 2000+? da li se šta menja?
-	- Koja biblioteka ima najviše loših unosa datuma?
-	- Koja biblioteka ima najviše mušterija?
+	
+	- Which libraries have most incorrect entries?
+	
 	
 
 
 - Pitanja:
 	- What is the rate of late returns?
-	- Are there any factors connected with late returns?
+	+ Are there any factors connected with late returns?
 	- How to mitigate them?
 	- How to present findings/solution?
 	
@@ -39,3 +40,21 @@
 - Primedbe:
 	- id in checkouts is not unique but rather books id. This naming is not good practice.
 	- podaci su očajni
+
+- Potential metrics that can describe past due books
+	- Library
+	- Library City/State
+	- Customer name?
+	- Cutomer city?
+	- Gender
+	- Age group
+	- Education
+	- Occupation
+	- Book Category
+	- Price
+	- Pages
+
+
+
+- t-test za relevantnost rezultata, drill-down (multivariate analysis)
+
